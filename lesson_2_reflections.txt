@@ -10,3 +10,10 @@ repository? What value do you think it offers?
 Staging area is diffrent from working directory and repository in the 
 sense that it stores the files temporaryly.
 It allows us to group all the files whose changes you want to commit.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+After a logical change in multiple file all the changed files can be 
+stored in staging area for the repository to group them together and 
+commit.
