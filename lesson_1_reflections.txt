@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+
+I saved time by checking only the lines that have been changed
+Then checking onle the changed lines , I was able to indentify the typo
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+It can help you in comparing the files and track your progress
+You can check previous working versions to undo your changes upto a 
+particular point
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+Git:
+Pros
+->You save changes only at every logical point
+Cons
+->You may save too often or too far apart that the two files make no 
+sense when compared.
+->You may forget to save.
+
+Google Docs:
+Pros
+->The changes are saved automatically and hence releasing you from the 
+task of remembering to save the changes.
+Cons
+->But it won't save at every logical point and there may be a lot of 
+unnessary saves or important changes may not be saved.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+Because you want to track the states of other files at the time of commit 
+as all the files are highly interrelated and changes in 1 file effects 
+another.
+
+How can you use the commands git log and git diff to view the history of 
+files?
+
+git log gives info on all the commits on the repository in form of 
+ID,TimeOfCommit and Message to state what changes have been done.
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+Version control strores all the previous commits and hence we could check 
+the previous working commit and find out the differences using git 
+diff.Finally fixing the break.
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+
+I want to use git for version control of my project.
