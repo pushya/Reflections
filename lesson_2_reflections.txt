@@ -17,3 +17,41 @@ logical change?
 After a logical change in multiple file all the changed files can be 
 stored in staging area for the repository to group them together and 
 commit.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+branches would be helpful when you want to experiment with the existing 
+code while maintaing it.Branches help in letting you experiment with code 
+seperate from working code.
+
+How do the diagrams help you visualize the branch structure?
+
+the diagrams help in determing where exactly there is a branch and if 
+there are any unreachable commits.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+ 
+The result of merging two branches results in commit which has lines 
+common to both branches,lines added to either branches and without lines 
+which were deleted in either of the branches.
+We represent it in the diagram the way we do as the resultant commit will 
+have two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Git’s automatic merging:
+Pros
+-Saves user time and is efficient
+Cons
+-There may merge conflicts where the same part of the 2 branches has been 
+modified in each branch differently
+
+always doing merges manually
+Pros
+-There will be hardly any confilcts as the user merges carefully
+Cons
+-It is time taking.The would be needed to completely understand both 
+branches before trying to merge them.
