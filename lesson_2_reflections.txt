@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository a .git directory will be added to the 
 directory in which the repository was initialized.
 Through this .git you track the history of your files.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+Staging area is diffrent from working directory and repository in the 
+sense that it stores the files temporaryly.
+It allows us to group all the files whose changes you want to commit.
