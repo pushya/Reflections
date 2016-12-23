@@ -29,3 +29,9 @@ remote stored locally?
 
 So that you compare the state of the remote and your local repository 
 even when you are offline.
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+
+I would collaborate by working on same computer or sharing files.Using 
+git and GitHub is far easier than that.
