@@ -23,3 +23,9 @@ clone:
 branch:
 -branch is when you want to experiment with the existing code while 
 maintaing a copy of that code.
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+
+So that you compare the state of the remote and your local repository 
+even when you are offline.
