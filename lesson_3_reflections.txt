@@ -35,3 +35,9 @@ easier, and what would be harder?
 
 I would collaborate by working on same computer or sharing files.Using 
 git and GitHub is far easier than that.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+When you are collaborating with someonelse or when you want to create 
+another version or experiment.
